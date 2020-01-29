@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="08a13aaa-ce44-49fe-834e-082a5c75321e" name="Default Changelist" comment="fixup! Evoluation Metric" />
+    <list id="9ca65982-9a98-46ee-9cb9-619b9666ee8a" name="Revert &quot;Evoluation Metric&quot;" comment="Revert &quot;Evoluation Metric&quot;&#10;&#10;This reverts commit 9ce0697b">
+      <change beforePath="$PROJECT_DIR$/Evaluation_metric_문제.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results_3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample_code.py" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="JupyterTrust" id="a5a51262-987a-427f-b2f7-18a483a30cad" />
+  <component name="ProjectId" id="1Wh0lTD6wdMvmae8NvTi1HeTNX2" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ChangesTree.GroupingKeys" value="" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager" selected="Python.sample_code_py">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="Evaluation_metric" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sample_code" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Evaluation_metric" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="docker://dhkim36/sc31:v0/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="DockerContainerSettingsRunConfigurationExtension">
+        <option name="envVars">
+          <list />
+        </option>
+        <option name="extraHosts">
+          <list />
+        </option>
+        <option name="links">
+          <list />
+        </option>
+        <option name="networkDisabled" value="false" />
+        <option name="networkMode" value="bridge" />
+        <option name="portBindings">
+          <list />
+        </option>
+        <option name="publishAllPorts" value="false" />
+        <option name="version" value="1" />
+        <option name="volumeBindings">
+          <list>
+            <DockerVolumeBindingImpl>
+              <option name="containerPath" value="/opt/project" />
+              <option name="editable" value="true" />
+              <option name="hostPath" value="$PROJECT_DIR$" />
+              <option name="readOnly" value="false" />
+            </DockerVolumeBindingImpl>
+          </list>
+        </option>
+      </EXTENSION>
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sample_code.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sample_code_py" type="PythonConfigurationType" factoryName="Python">
+      <module name="Evaluation_metric" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="docker://dhkim36/sc31:v0/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="DockerContainerSettingsRunConfigurationExtension">
+        <option name="envVars">
+          <list />
+        </option>
+        <option name="extraHosts">
+          <list />
+        </option>
+        <option name="links">
+          <list />
+        </option>
+        <option name="networkDisabled" value="false" />
+        <option name="networkMode" value="bridge" />
+        <option name="portBindings">
+          <list />
+        </option>
+        <option name="publishAllPorts" value="false" />
+        <option name="version" value="1" />
+        <option name="volumeBindings">
+          <list>
+            <DockerVolumeBindingImpl>
+              <option name="containerPath" value="/opt/project" />
+              <option name="editable" value="true" />
+              <option name="hostPath" value="$PROJECT_DIR$" />
+              <option name="readOnly" value="false" />
+            </DockerVolumeBindingImpl>
+          </list>
+        </option>
+      </EXTENSION>
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sample_code.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Docker Image" type="docker-deploy" factoryName="docker-image" temporary="true" server-name="Docker">
+      <deployment type="docker-image">
+        <settings>
+          <option name="command" value="" />
+          <option name="containerName" value="" />
+          <option name="entrypoint" value="" />
+          <option name="imageTag" value="dhkim36/sc31:v1" />
+          <option name="commandLineOptions" value="-it -p 8888:8888 -p 6006:6006 -v $USER_HOME$/docker:/evm" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-image" server-name="Docker">
+      <deployment type="docker-image">
+        <settings>
+          <option name="command" value="" />
+          <option name="containerName" value="em" />
+          <option name="entrypoint" value="" />
+          <option name="imageTag" value="dhkim36/sc31:v1" />
+          <option name="commandLineOptions" value="-it -p:8888:8888 -p 6006:6006 -v ~/docker:/evaluation_metric" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Docker.Docker Image" />
+      <item itemvalue="Python.sample_code_py" />
+      <item itemvalue="Python.sample_code" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.sample_code" />
+        <item itemvalue="Docker.Docker Image" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="08a13aaa-ce44-49fe-834e-082a5c75321e" name="Default Changelist" comment="" />
+      <created>1579586669290</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1579586669290</updated>
+      <workItem from="1579586671986" duration="5477000" />
+      <workItem from="1579652624962" duration="29186000" />
+      <workItem from="1579738387201" duration="8648000" />
+      <workItem from="1580170957759" duration="1132000" />
+      <workItem from="1580172278083" duration="113000" />
+    </task>
+    <task id="LOCAL-00001" summary="Evoluation Metric">
+      <created>1580171541577</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1580171541577</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Evoluation Metric">
+      <created>1580171814635</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1580171814635</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_TABS">
+      <set>
+        <option value="1" />
+      </set>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Evoluation Metric" />
+    <option name="LAST_COMMIT_MESSAGE" value="Evoluation Metric" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="657" y="200" key="#Docker" timestamp="1579738486944">
+      <screen x="69" y="24" width="1851" height="1056" />
+    </state>
+    <state x="657" y="200" key="#Docker/69.24.1851.1056/1920.0.1920.1080@69.24.1851.1056" timestamp="1579738486944" />
+    <state x="670" y="158" key="#Docker_Image" timestamp="1579588010052">
+      <screen x="69" y="24" width="1851" height="1056" />
+    </state>
+    <state x="670" y="158" key="#Docker_Image/69.24.1851.1056/1920.0.1920.1080@69.24.1851.1056" timestamp="1579588010052" />
+    <state x="594" y="200" key="#Notifications" timestamp="1580171716962">
+      <screen x="69" y="24" width="1851" height="1056" />
+    </state>
+    <state x="594" y="200" key="#Notifications/69.24.1851.1056/1920.0.1920.1080@69.24.1851.1056" timestamp="1580171716962" />
+    <state x="487" y="100" width="1197" height="890" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579738546871">
+      <screen x="69" y="24" width="1851" height="1056" />
+    </state>
+    <state x="487" y="100" width="1197" height="890" key="#com.intellij.execution.impl.EditConfigurationsDialog/69.24.1851.1056/1920.0.1920.1080@69.24.1851.1056" timestamp="1579738546871" />
+    <state x="703" y="371" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1580171185732">
+      <screen x="69" y="24" width="1851" height="1056" />
+    </state>
+    <state x="703" y="371" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/69.24.1851.1056/1920.0.1920.1080@69.24.1851.1056" timestamp="1580171185732" />
+    <state x="117" y="128" key="CommitChangelistDialog2" timestamp="1580172433345">
+      <screen x="69" y="24" width="1851" height="1056" />
+    </state>
+    <state x="117" y="128" key="CommitChangelistDialog2/69.24.1851.1056/1920.0.1920.1080@69.24.1851.1056" timestamp="1580172433345" />
+    <state x="814" y="304" key="FileChooserDialogImpl" timestamp="1580171330038">
+      <screen x="69" y="24" width="1851" height="1056" />
+    </state>
+    <state x="814" y="304" key="FileChooserDialogImpl/69.24.1851.1056/1920.0.1920.1080@69.24.1851.1056" timestamp="1580171330038" />
+    <state x="827" y="417" key="GitRewordDialog" timestamp="1580172196540">
+      <screen x="69" y="24" width="1851" height="1056" />
+    </state>
+    <state x="827" y="417" key="GitRewordDialog/69.24.1851.1056/1920.0.1920.1080@69.24.1851.1056" timestamp="1580172196540" />
+    <state x="791" y="426" key="Github.ShareDialog" timestamp="1580171292972">
+      <screen x="69" y="24" width="1851" height="1056" />
+    </state>
+    <state x="791" y="426" key="Github.ShareDialog/69.24.1851.1056/1920.0.1920.1080@69.24.1851.1056" timestamp="1580171292972" />
+    <state width="975" height="131" key="GridCell.Tab.0.bottom" timestamp="1580172400675">
+      <screen x="69" y="24" width="1851" height="1056" />
+    </state>
+    <state width="1342" height="185" key="GridCell.Tab.0.bottom/69.24.1851.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1579687764424" />
+    <state width="975" height="131" key="GridCell.Tab.0.bottom/69.24.1851.1056/1920.0.1920.1080@69.24.1851.1056" timestamp="1580172400675" />
+    <state width="975" height="131" key="GridCell.Tab.0.center" timestamp="1580172400675">
+      <screen x="69" y="24" width="1851" height="1056" />
+    </state>
+    <state width="1342" height="185" key="GridCell.Tab.0.center/69.24.1851.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1579687764424" />
+    <state width="975" height="131" key="GridCell.Tab.0.center/69.24.1851.1056/1920.0.1920.1080@69.24.1851.1056" timestamp="1580172400675" />
+    <state width="975" height="131" key="GridCell.Tab.0.left" timestamp="1580172400675">
+      <screen x="69" y="24" width="1851" height="1056" />
+    </state>
+    <state width="1342" height="185" key="GridCell.Tab.0.left/69.24.1851.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1579687764424" />
+    <state width="975" height="131" key="GridCell.Tab.0.left/69.24.1851.1056/1920.0.1920.1080@69.24.1851.1056" timestamp="1580172400675" />
+    <state width="975" height="131" key="GridCell.Tab.0.right" timestamp="1580172400675">
+      <screen x="69" y="24" width="1851" height="1056" />
+    </state>
+    <state width="1342" height="185" key="GridCell.Tab.0.right/69.24.1851.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1579687764424" />
+    <state width="975" height="131" key="GridCell.Tab.0.right/69.24.1851.1056/1920.0.1920.1080@69.24.1851.1056" timestamp="1580172400675" />
+    <state width="1342" height="277" key="GridCell.Tab.1.bottom" timestamp="1579683520767">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1342" height="277" key="GridCell.Tab.1.bottom/69.24.1851.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1579683520767" />
+    <state width="1799" height="347" key="GridCell.Tab.1.bottom/69.24.1851.1056/1920.0.1920.1080@69.24.1851.1056" timestamp="1579658990019" />
+    <state width="1342" height="277" key="GridCell.Tab.1.center" timestamp="1579683520766">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1342" height="277" key="GridCell.Tab.1.center/69.24.1851.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1579683520766" />
+    <state width="1799" height="347" key="GridCell.Tab.1.center/69.24.1851.1056/1920.0.1920.1080@69.24.1851.1056" timestamp="1579658990018" />
+    <state width="1342" height="277" key="GridCell.Tab.1.left" timestamp="1579683520766">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1342" height="277" key="GridCell.Tab.1.left/69.24.1851.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1579683520766" />
+    <state width="1799" height="347" key="GridCell.Tab.1.left/69.24.1851.1056/1920.0.1920.1080@69.24.1851.1056" timestamp="1579658990018" />
+    <state width="1342" height="277" key="GridCell.Tab.1.right" timestamp="1579683520767">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1342" height="277" key="GridCell.Tab.1.right/69.24.1851.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1579683520767" />
+    <state width="1799" height="347" key="GridCell.Tab.1.right/69.24.1851.1056/1920.0.1920.1080@69.24.1851.1056" timestamp="1579658990019" />
+    <state x="455" y="180" key="SettingsEditor" timestamp="1580172394283">
+      <screen x="69" y="24" width="1851" height="1056" />
+    </state>
+    <state x="455" y="180" key="SettingsEditor/69.24.1851.1056/1920.0.1920.1080@69.24.1851.1056" timestamp="1580172394283" />
+    <state x="594" y="274" key="Vcs.Push.Dialog.v2" timestamp="1580171978902">
+      <screen x="69" y="24" width="1851" height="1056" />
+    </state>
+    <state x="594" y="274" key="Vcs.Push.Dialog.v2/69.24.1851.1056/1920.0.1920.1080@69.24.1851.1056" timestamp="1580171978902" />
+    <state x="214" y="405" key="com.intellij.ide.util.TipDialog" timestamp="1580172279004">
+      <screen x="69" y="24" width="1851" height="1056" />
+    </state>
+    <state x="214" y="405" key="com.intellij.ide.util.TipDialog/69.24.1851.1056/1920.0.1920.1080@69.24.1851.1056" timestamp="1580172279004" />
+    <state x="722" y="395" key="git4idea.rebase.GitRebaseDialog" timestamp="1580172068918">
+      <screen x="69" y="24" width="1851" height="1056" />
+    </state>
+    <state x="722" y="395" key="git4idea.rebase.GitRebaseDialog/69.24.1851.1056/1920.0.1920.1080@69.24.1851.1056" timestamp="1580172068918" />
+    <state x="2506" y="217" width="746" height="694" key="search.everywhere.popup" timestamp="1579677571511">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2506" y="217" width="746" height="694" key="search.everywhere.popup/69.24.1851.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1579677571511" />
+    <state x="634" y="236" width="719" height="678" key="search.everywhere.popup/69.24.1851.1056/1920.0.1920.1080@69.24.1851.1056" timestamp="1579587548324" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="data" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Evaluation_metric$sample_code_py.coverage" NAME="sample_code_py Coverage Results" MODIFIED="1580172400665" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Evaluation_metric$sample_code.coverage" NAME="sample_code Coverage Results" MODIFIED="1579683606907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>

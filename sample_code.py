@@ -20,7 +20,7 @@ def ComputePrecision_Recall(data, total_object):
     return precision, recall, graph
 
 def PrecRecCurve(graph):
-        graph.plot.line(x="recall", y="precision")
+    pass
 
 def ComputeAveragePrecision_11P(graph):
     graph = graph.to_numpy()
@@ -34,33 +34,42 @@ def ComputeAveragePrecision_11P(graph):
         except:
             graph_eleven = np.append(graph_eleven, 0)
 
+    plt.plot(recall_eleven, graph_eleven)
+
     for i, j in enumerate(graph_eleven):
         graph_eleven[i] = np.max(graph_eleven[i:])
 
     print('\n11_interpolation\n', np.sum(graph_eleven)/11)
 
-    #graph.plot.line(x="recall", y="precision")
-    #plt.show()
+    plt.plot(recall_eleven, graph_eleven)
+    plt.show()
 
 def ComputeAveragePrecision_every(graph):
     graph = graph.to_numpy()
-    recall_every, idx = np.unique(graph[:,1], return_index=True)
+    graph_every = np.array([])
     sum = 0
     last_graph = 0
+    last_arg = 0
+    x = graph[:,1].copy()
+
+    plt.plot(graph[:,1], graph[:,0])
     for i in graph:
         max_arg = np.argmax(graph[:, 0])
         sum += graph[max_arg,0] * (graph[max_arg,1] - last_graph)
         last_graph = graph[max_arg,1]
+
+        for j in range(0, max_arg+1-last_arg):
+            graph_every = (np.append(graph_every, graph[max_arg,0]))
+        last_arg = max_arg+1
         graph[:max_arg+1] = 0
-    print('\nevery interpolation\n', sum)
+    print('\nevery_interpolation\n', sum)
+    plt.plot(x, graph_every)
+    plt.show()
 
+# To Detect Num of Object     /home/dh/satellite-imagery-obj-detection
+csv_path = 'results_1.csv'
+NUM_OF_OBJECT = 19
 
-
-# To Detect Num of Object
-#csv_path = input('csv path : ')
-csv_path = 'results_3.csv'
-NUM_OF_OBJECT = 5
-#NUM_OF_OBJECT = int(input('total object input : '))
 data_path = os.path.join(os.getcwd(), csv_path)
 data = pd.read_csv(data_path)
 
