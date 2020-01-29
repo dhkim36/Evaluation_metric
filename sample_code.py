@@ -67,8 +67,8 @@ def ComputeAveragePrecision_every(graph):
     plt.show()
 
 # To Detect Num of Object     /home/dh/satellite-imagery-obj-detection
-csv_path = 'results_1.csv'
-NUM_OF_OBJECT = 19
+csv_path = 'results_3.csv'
+NUM_OF_OBJECT = 5
 
 data_path = os.path.join(os.getcwd(), csv_path)
 data = pd.read_csv(data_path)
