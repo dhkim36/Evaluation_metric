@@ -64,11 +64,11 @@ def ComputeAveragePrecision_every(graph):
         graph[:max_arg+1] = 0
     print('\nevery_interpolation\n', sum)
     plt.plot(x, graph_every)
-    plt.show()
 
 # To Detect Num of Object     /home/dh/satellite-imagery-obj-detection
 csv_path = 'results_3.csv'
 NUM_OF_OBJECT = 5
+test = 1
 
 data_path = os.path.join(os.getcwd(), csv_path)
 data = pd.read_csv(data_path)
